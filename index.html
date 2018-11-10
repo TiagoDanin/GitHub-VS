@@ -1,0 +1,63 @@
+<div class="uk-align-center">
+	<h1>
+		<span class="uk-text-primary uk-text-bold">GitHub VS</span>
+	</h1>
+
+	<form role="form">
+		<div><input type="text" class="uk-input" id="one:user" placeholder="User1"></div>
+		<div><input type="text" class="uk-input" id="two:user" placeholder="User2"></div>
+		<input type="text" class="uk-input" id="token" placeholder="Token (https://github.com/settings/tokens)">
+		<button id="bt:check" type="button" class="uk-button uk-button-danger uk-button-small" style="width: 100%;">Check<i class="ti-arrow-right"></i></button>
+	</form>
+</div>
+</br>
+<div id="hidden" class="uk-hidden">
+	<div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-text-center" uk-grid="">
+		<div>
+			<img src="" class="my-photo uk-margin-small-right" id="one:img">
+			<h2 class="uk-card-title"><a href="#" id="one:name">User 1</a></span></h2>
+		</div>
+		<div>
+			<img src="" class="my-photo uk-margin-small-right" id="two:img">
+			<h2 class="uk-card-title"><a href="#" id="two:name">User 2</a></span></h2>
+		</div>
+	</div>
+	<hr class="uk-margin-top-remove uk-divider-icon">
+	<div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-text-center" uk-grid="">
+		<div>
+			<p id="one:opens:total">
+				<p>
+					<canvas id="one:opens" height="120"></canvas>
+		</div>
+		<div>
+			<p id="two:opens:total">
+				<p>
+					<canvas id="two:opens" height="120"></canvas>
+		</div>
+	</div>
+	<hr class="uk-margin-top-remove uk-divider-icon">
+	<div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-text-center" uk-grid="">
+		<div>
+			<p id="one:repos:total">
+				<p>
+					<canvas id="one:repositories" height="120"></canvas>
+		</div>
+		<div>
+			<p id="two:repos:total">
+				<p>
+					<canvas id="two:repositories" height="120"></canvas>
+		</div>
+	</div>
+	<hr class="uk-margin-top-remove uk-divider-icon">
+	<div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-text-center" uk-grid="">
+		<div>
+			<canvas id="one:etc" height="120"></canvas>
+		</div>
+		<div>
+			<canvas id="two:etc" height="120"></canvas>
+		</div>
+	</div>
+</div>
+</br>
+<script src="dist/webpack.js"></script>
+<h2 class="uk-align-center">GitHub VS Repo Info<h2>

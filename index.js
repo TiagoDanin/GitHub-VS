@@ -1,4 +1,4 @@
-const github = require('fetch-github-graphq')
+const github = require('fetch-github-graphql')
 const Chart = require('chart.js')
 const bytelabel = require('bytelabel')
 
