@@ -1,0 +1,33 @@
+{
+  "name": "github-vs",
+  "version": "1.0.0",
+  "description": "[WIP]",
+  "main": "index.js",
+  "dependencies": {
+    "bytelabel": "2.0.2",
+    "fetch-github-graphql": "^1.0.0"
+  },
+  "devDependencies": {
+    "chart.js": "2.7.3",
+    "webpack": "4.17.1",
+    "webpack-cli": "3.1.2"
+  },
+  "scripts": {
+    "test": "echo 'Nice Test :)'",
+    "build": "webpack --mode production --entry . --output-library=github-vs --output-filename=lib.js --devtool source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoDanin/GitHub-VS.git"
+  },
+  "keywords": [
+    "github",
+    "vs"
+  ],
+  "author": "TiagoDanin <TiagoDanin@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TiagoDanin/GitHub-VS/issues"
+  },
+  "homepage": "https://github.com/TiagoDanin/GitHub-VS#readme"
+}
