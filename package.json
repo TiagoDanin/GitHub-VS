@@ -1,14 +1,14 @@
 {
   "name": "github-vs",
   "version": "1.0.0",
-  "description": "[WIP]",
+  "description": "Compare two profiles of GitHub",
   "main": "index.js",
   "dependencies": {
     "bytelabel": "2.0.2",
+    "chart.js": "2.7.3",
     "fetch-github-graphql": "^1.0.0"
   },
   "devDependencies": {
-    "chart.js": "2.7.3",
     "webpack": "4.17.1",
     "webpack-cli": "3.1.2"
   },
