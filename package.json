@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bytelabel": "2.0.2",
-    "chart.js": "2.7.3",
+    "chart.js": "2.8.0",
     "fetch-github-graphql": "^1.0.0"
   },
   "devDependencies": {
