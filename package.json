@@ -4,13 +4,13 @@
 	"description": "Compare two profiles of GitHub",
 	"main": "index.js",
 	"dependencies": {
-		"bytelabel": "2.0.2",
-		"chart.js": "2.7.3",
+		"bytelabel": "^2.0.2",
+		"chart.js": "^2.7.3",
 		"fetch-github-graphql": "^1.0.0"
 	},
 	"devDependencies": {
-		"webpack": "4.17.1",
-		"webpack-cli": "3.3.0"
+		"webpack": "^4.17.1",
+		"webpack-cli": "^3.3.0"
 	},
 	"scripts": {
 		"test": "echo 'Nice Test :)'",
