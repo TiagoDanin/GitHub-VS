@@ -9,7 +9,7 @@
 		"fetch-github-graphql": "^1.0.0"
 	},
 	"devDependencies": {
-		"webpack": "^4.40.0",
+		"webpack": "^4.40.1",
 		"webpack-cli": "^3.3.8"
 	},
 	"scripts": {
